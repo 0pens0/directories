@@ -10,6 +10,7 @@ import { blazorRules } from "./blazor";
 import { bootstrapRules } from "./bootstrap";
 import { cRules } from "./c";
 import { chromeExtensionRules } from "./chrome-extension";
+import { cloudFoundryRules } from "./cloudfoundry";
 import { convexRules } from "./convex";
 import { cosmwasmRules } from "./cosmwasm";
 import { cppRules } from "./cpp";
@@ -90,6 +91,7 @@ export const rules: Rule[] = [
   ...cosmwasmRules,
   ...bootstrapRules,
   ...chromeExtensionRules,
+  ...cloudFoundryRules,
   ...convexRules,
   ...cppRules,
   ...cRules,
